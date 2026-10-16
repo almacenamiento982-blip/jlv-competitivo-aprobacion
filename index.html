@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow"><title>Las Vegas Competitivo · Aprobación</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f3f2ef;--panel:#fff;--ink:#121212;--ink2:#45454a;--muted:#75757b;--line:#e1dfd9;--acento:#8c6a12;--marca:#c9a227;--ok:#1d7a4a;--ok-s:#e3f3ea;--warn:#946300;--warn-s:#fbf0d4;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e0e0e;--panel:#191919;--ink:#f3f2ec;--ink2:#c8c7c0;--muted:#8e8d87;--line:#2d2d2d;--acento:#d9b54a;--ok:#5cc98c;--ok-s:#14301f;--warn:#e7b84a;--warn-s:#352a10;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e0e0e;--panel:#191919;--ink:#f3f2ec;--ink2:#c8c7c0;--muted:#8e8d87;--line:#2d2d2d;--acento:#d9b54a;--ok:#5cc98c;--ok-s:#14301f;--warn:#e7b84a;--warn-s:#352a10;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Barlow",system-ui,"Segoe UI",sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:18px;padding-block:26px 60px}
+h1,h2,h3{font-family:"Barlow Condensed","Barlow",system-ui,sans-serif;margin:0;line-height:1.1;text-wrap:balance}
+h1{font-size:clamp(30px,5vw,46px);text-transform:uppercase}h3{font-size:20px;letter-spacing:.4px}
+.franja{height:6px;background:var(--marca);border-radius:3px;width:64px;margin-bottom:14px}
+.eyebrow{font:600 13px/1 "Barlow",sans-serif;letter-spacing:2.5px;text-transform:uppercase;color:var(--acento);margin-bottom:10px}
+.lead{color:var(--ink2);font-size:18px;margin:10px 0 0;max-width:72ch}
+.como{margin-top:14px;font-size:15px;color:var(--ink2);max-width:80ch}
+.como ul{margin:6px 0 0;padding-left:20px}
+.segm{padding:14px 16px}
+.segm dl{display:grid;grid-template-columns:max-content 1fr;gap:8px 18px;margin:0}.segm dt{font-weight:600}.segm dd{margin:0;color:var(--ink2)}
+@media (max-width:560px){.segm dl{grid-template-columns:1fr;gap:2px}.segm dd{margin-bottom:8px}}
+.todo{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:16px 0 0;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.todo .cuenta{font-weight:600}
+.ad{background:var(--panel);border:1px solid var(--line);border-radius:14px;margin-top:16px;overflow:hidden}
+.ad.conf{border-top:4px solid var(--marca)}
+.ad header{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.num{font:700 16px "Barlow Condensed",sans-serif;background:var(--ink);color:var(--bg);width:26px;height:26px;border-radius:50%;display:grid;place-items:center;flex:none}
+.estado{margin-left:auto;font-size:13px;font-weight:600;padding:3px 10px;border-radius:999px;background:var(--warn-s);color:var(--warn);white-space:nowrap}
+.cuerpo{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:22px;padding:16px}
+.media{min-width:0}.media img{display:block;width:100%;height:auto;border-radius:8px}
+.vid{display:block;width:100%;max-width:330px;aspect-ratio:9/16;height:auto;border-radius:8px;background:#000}
+.dl{display:inline-block;margin-top:8px;font-size:14px;color:var(--acento);font-weight:600}
+.nota-pieza{font-size:14px;color:var(--muted);margin:6px 0 0}
+.copy{min-width:0}.lbl{font:600 12px "Barlow",sans-serif;letter-spacing:1.6px;text-transform:uppercase;color:var(--muted);margin-top:14px}
+.lbl:first-child{margin-top:0}.hint{text-transform:none;letter-spacing:0;font-weight:400}
+.tp{font-size:15.5px}.tit{font-weight:600}
+.btn{display:inline-block;border:1px solid var(--line);border-radius:6px;padding:3px 12px;font-weight:600;font-size:14px;margin:4px 0 0}
+.trad{margin-top:14px;font-size:14.5px;color:var(--ink2)}.trad summary{cursor:pointer;color:var(--acento);font-weight:600}.trad p{margin:8px 0 0}
+.ed{border:1px dashed var(--line);border-radius:8px;padding:8px 10px;margin-top:4px;outline:none;white-space:pre-wrap}
+.ed:focus{border-color:var(--acento);border-style:solid}.ed.cambiado{border-color:var(--warn);border-style:solid}
+.acciones{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.acciones button,.nota button,.todo button{font:600 15px "Barlow",sans-serif;border-radius:8px;padding:9px 16px;cursor:pointer;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.acciones button:focus-visible,.todo button:focus-visible,.nota button:focus-visible,.trad summary:focus-visible{outline:2px solid var(--acento);outline-offset:2px}
+.acciones .aprobar,.todo button{background:var(--ok);border-color:var(--ok);color:#fff}.acciones .aprobar.copy{background:var(--warn);border-color:var(--warn)}
+.nota[hidden],.deshacer[hidden],.todo button[hidden]{display:none}
+.nota{margin-top:10px;display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.nota textarea{font:15px "Barlow",sans-serif;padding:8px 10px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);width:100%}
+.aviso{margin:8px 0 0;font-size:14px;color:var(--ok);min-height:1em}
+.ad.aprobado{border-color:var(--ok);box-shadow:0 0 0 1px var(--ok)}.ad.aprobado .estado{background:var(--ok-s);color:var(--ok)}
+@media (max-width:720px){.cuerpo{grid-template-columns:1fr}.media img{max-width:440px}}
+footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:14px}
+</style></head><body><div class="wrap">
+<div class="franja"></div>
+<div class="eyebrow">Juventus Academy Las Vegas · Meta Ads · Para aprobar</div>
+<h1>Campaña de tryouts del equipo competitivo</h1>
+<p class="lead">Versión final de la campaña de tryouts del competitivo (6 a 17 años), lista para lanzar: presupuesto, público y los cuatro anuncios con su pieza y su texto tal como irían en Meta.</p>
+<div class="como"><b>Qué cambió desde la revisión anterior:</b>
+  <ul>
+    <li>El presupuesto baja de USD 20 a <b>USD 11 al día</b>, para que Las Vegas completo quede en unos USD 500 al mes.</li>
+    <li>Queda <b>un solo público</b> en lugar de dos.</li>
+    <li>Las piezas usan la <b>camiseta 2026-27</b>: se corrigió el HERO, y "Next level" y "Built to compete" son las piezas rediseñadas.</li>
+    <li>La página de destino es la nueva de tryouts, ya publicada el 16-10.</li>
+  </ul></div>
+<p class="como"><b>Cómo aprobar:</b> si está bien, botón <b>Aprobar</b>. Para corregir un texto o un título, se escribe directamente encima; el botón pasa a <b>Aprobar con texto corregido</b> y se guarda la versión nueva. También se puede dejar una nota sin aprobar. Todo queda registrado.</p>
+<div class="todo"><span class="cuenta"></span><button type="button">Aprobar todo lo que falta</button></div>
+<article class="ad pend conf" data-id="CONF">
+  <header><span class="num">$</span><h3>Presupuesto y público</h3><span class="estado" data-estado>Cambió el presupuesto</span></header>
+  <div class="segm">
+    <dl>
+      <dt>Presupuesto</dt><dd><b>USD 11 al día</b> (unos USD 335 al mes). Con Little Zebras (USD 5,50 al día, unos USD 167 al mes) Las Vegas queda en <b>unos USD 500 al mes</b>, como se acordó el 14-10. Antes el competitivo estaba en USD 20 al día.</dd>
+      <dt>Público</dt><dd>Padres de 25 a 54 años en Las Vegas y 25 millas a la redonda. <b>Un solo público abierto</b>: se quitó el segundo (personas parecidas a quienes interactúan con el Instagram) para que USD 11 no se dividan en dos y Meta aprenda más rápido.</dd>
+      <dt>Objetivo</dt><dd>Registros al tryout gratis del equipo competitivo (6 a 17 años). El anuncio lleva a la página jacademylasvegas.com/tryouts-2026/, publicada el 16-10, y el registro se mide cuando tocan "Book your free tryout".</dd>
+      <dt>Duración</dt><dd>Prueba de un mes; primera revisión a los 7 días.</dd>
+      <dt>Anuncios</dt><dd>Los cuatro de abajo, todos en inglés y con el botón "Sign Up".</dd>
+    </dl>
+    <div class="acciones">
+      <button type="button" class="aprobar" data-accion="aprobar">Aprobar presupuesto y público</button>
+      <button type="button" class="sec" data-accion="nota">Dejar una nota</button>
+    </div>
+    <div class="nota" hidden><textarea rows="2" placeholder="Nota sobre el presupuesto o el público (opcional)"></textarea><button type="button" class="sec" data-accion="enviar-nota">Enviar nota</button></div>
+    <p class="aviso" data-aviso aria-live="polite"></p>
+  </div>
+</article><article class="ad pend" data-id="V4">
+  <header><span class="num">1</span><h3>VIDEO-4 · &quot;This is how we train&quot; (voz de Jesús)</h3><span class="estado" data-estado>Sin cambios</span></header>
+  <div class="cuerpo">
+    <div class="media"><video src="assets/V4.mp4?v=1" poster="assets/V4_portada.jpg?v=1" controls playsinline preload="none" class="vid"></video><a class="dl" href="assets/V4.mp4?v=1" target="_blank" rel="noopener">Abrir el video aparte</a>
+      <p class="nota-pieza">Voz en off de Jesús sobre tomas reales de Las Vegas (19 s, vertical). Es el mismo video de la revisión anterior.</p></div>
+    <div class="copy">
+      <div class="lbl">Texto principal · inglés <span class="hint">· se puede editar</span></div>
+      <div class="tp ed" contenteditable="true" spellcheck="true" data-campo="texto">This is how we train at Juventus Academy Las Vegas, with our competitive teams for boys and girls ages 6 to 17. ⚽<br><br>Every session follows the official Juventus methodology: technical, tactical, physical and mental. Our teams play league and tournaments, with certified coaches who push every player to the next level.<br><br>Ready for the next step? Book your tryout at the link 👇</div>
+      <div class="lbl">Título <span class="hint">· se puede editar</span></div>
+      <div class="tit ed" contenteditable="true" spellcheck="true" data-campo="titulo">Book your tryout · Ages 6–17</div>
+      <div class="lbl">Botón</div><p class="btn">Sign Up</p>
+      <details class="trad"><summary>Traducción al español (solo de referencia, no se publica)</summary><p>Así entrenamos en Juventus Academy Las Vegas, con nuestros equipos competitivos para niños y niñas de 6 a 17 años. ⚽<br><br>Cada sesión sigue la metodología oficial de Juventus: técnica, táctica, física y mental. Nuestros equipos juegan liga y torneos, con entrenadores certificados que llevan a cada jugador al siguiente nivel.<br><br>¿Listo para el siguiente paso? Reserva tu tryout en el enlace 👇</p></details>
+      <div class="acciones">
+        <button type="button" class="aprobar" data-accion="aprobar">Aprobar</button>
+        <button type="button" class="sec" data-accion="nota">Dejar una nota</button>
+        <button type="button" class="sec deshacer" data-accion="restaurar" hidden>Volver al texto original</button>
+      </div>
+      <div class="nota" hidden><textarea rows="2" placeholder="Nota para este anuncio (opcional)"></textarea><button type="button" class="sec" data-accion="enviar-nota">Enviar nota</button></div>
+      <p class="aviso" data-aviso aria-live="polite"></p>
+    </div>
+  </div>
+</article><article class="ad pend" data-id="S1">
+  <header><span class="num">2</span><h3>STATIC-1 · HERO &quot;Las Vegas · Ages 6 to 17&quot;</h3><span class="estado" data-estado>Corregida 16-10</span></header>
+  <div class="cuerpo">
+    <div class="media"><img src="assets/S1.jpg?v=1" alt="STATIC-1 · HERO &quot;Las Vegas · Ages 6 to 17&quot;" loading="lazy"><a class="dl" href="assets/S1_1080.jpg?v=1" target="_blank" rel="noopener">Ver a tamaño real</a>
+      <p class="nota-pieza">Se corrigió la ropa: los tres jugadores ahora llevan la camiseta 2026-27 (antes tenía detalles rosados y una niña con camiseta azul). Textos, logo y botón sin cambios.</p></div>
+    <div class="copy">
+      <div class="lbl">Texto principal · inglés <span class="hint">· se puede editar</span></div>
+      <div class="tp ed" contenteditable="true" spellcheck="true" data-campo="texto">The official Juventus Academy in Las Vegas. ⚪⚫<br><br>Our competitive teams for boys and girls ages 6 to 17 train with certified coaches and the official Juventus FC methodology, and play league and tournaments.<br><br>Book your tryout at the link and find the team that fits your player 👇</div>
+      <div class="lbl">Título <span class="hint">· se puede editar</span></div>
+      <div class="tit ed" contenteditable="true" spellcheck="true" data-campo="titulo">Las Vegas tryouts · Ages 6–17</div>
+      <div class="lbl">Botón</div><p class="btn">Sign Up</p>
+      <details class="trad"><summary>Traducción al español (solo de referencia, no se publica)</summary><p>La academia oficial de Juventus en Las Vegas. ⚪⚫<br><br>Nuestros equipos competitivos para niños y niñas de 6 a 17 años entrenan con entrenadores certificados y la metodología oficial de Juventus FC, y juegan liga y torneos.<br><br>Reserva tu tryout en el enlace y encuentra el equipo para tu jugador 👇</p></details>
+      <div class="acciones">
+        <button type="button" class="aprobar" data-accion="aprobar">Aprobar</button>
+        <button type="button" class="sec" data-accion="nota">Dejar una nota</button>
+        <button type="button" class="sec deshacer" data-accion="restaurar" hidden>Volver al texto original</button>
+      </div>
+      <div class="nota" hidden><textarea rows="2" placeholder="Nota para este anuncio (opcional)"></textarea><button type="button" class="sec" data-accion="enviar-nota">Enviar nota</button></div>
+      <p class="aviso" data-aviso aria-live="polite"></p>
+    </div>
+  </div>
+</article><article class="ad pend" data-id="S3">
+  <header><span class="num">3</span><h3>STATIC-3 · &quot;Next level&quot;</h3><span class="estado" data-estado>Pieza nueva</span></header>
+  <div class="cuerpo">
+    <div class="media"><img src="assets/S3.jpg?v=1" alt="STATIC-3 · &quot;Next level&quot;" loading="lazy"><a class="dl" href="assets/S3_1080.jpg?v=1" target="_blank" rel="noopener">Ver a tamaño real</a>
+      <p class="nota-pieza">Rediseño estilo póster: NEXT LEVEL gigante en dorado detrás de un jugador real de Las Vegas, con &quot;Book your free tryout&quot;. Reemplaza a la versión anterior (estadio). El texto no cambia.</p></div>
+    <div class="copy">
+      <div class="lbl">Texto principal · inglés <span class="hint">· se puede editar</span></div>
+      <div class="tp ed" contenteditable="true" spellcheck="true" data-campo="texto">Already playing and ready for more? ⚽<br><br>Our competitive teams for boys and girls ages 6 to 17 train under the official Juventus FC methodology and compete in leagues and tournaments, with certified coaches who push every player to the next level.<br><br>Book your tryout at the link 👇</div>
+      <div class="lbl">Título <span class="hint">· se puede editar</span></div>
+      <div class="tit ed" contenteditable="true" spellcheck="true" data-campo="titulo">Get to the next level · Ages 6–17</div>
+      <div class="lbl">Botón</div><p class="btn">Sign Up</p>
+      <details class="trad"><summary>Traducción al español (solo de referencia, no se publica)</summary><p>¿Ya juega y quiere más? ⚽<br><br>Nuestros equipos competitivos para niños y niñas de 6 a 17 años entrenan con la metodología oficial de Juventus FC y compiten en ligas y torneos, con entrenadores certificados que llevan a cada jugador al siguiente nivel.<br><br>Reserva tu tryout en el enlace 👇</p></details>
+      <div class="acciones">
+        <button type="button" class="aprobar" data-accion="aprobar">Aprobar</button>
+        <button type="button" class="sec" data-accion="nota">Dejar una nota</button>
+        <button type="button" class="sec deshacer" data-accion="restaurar" hidden>Volver al texto original</button>
+      </div>
+      <div class="nota" hidden><textarea rows="2" placeholder="Nota para este anuncio (opcional)"></textarea><button type="button" class="sec" data-accion="enviar-nota">Enviar nota</button></div>
+      <p class="aviso" data-aviso aria-live="polite"></p>
+    </div>
+  </div>
+</article><article class="ad pend" data-id="S4">
+  <header><span class="num">4</span><h3>STATIC-4 · &quot;Built to compete&quot;</h3><span class="estado" data-estado>Pieza y texto nuevos</span></header>
+  <div class="cuerpo">
+    <div class="media"><img src="assets/S4.jpg?v=1" alt="STATIC-4 · &quot;Built to compete&quot;" loading="lazy"><a class="dl" href="assets/S4_1080.jpg?v=1" target="_blank" rel="noopener">Ver a tamaño real</a>
+      <p class="nota-pieza">Reemplaza a &quot;5 questions&quot;: las cinco preguntas no daban la respuesta. Ahora la pieza muestra los cuatro beneficios (Certified coaches, Juventus method, Teams by age &amp; level, League &amp; tournaments) y el texto los repite.</p></div>
+    <div class="copy">
+      <div class="lbl">Texto principal · inglés <span class="hint">· se puede editar</span></div>
+      <div class="tp ed" contenteditable="true" spellcheck="true" data-campo="texto">Looking for a competitive team for your 6- to 17-year-old in Las Vegas? ⚽<br><br>Here&#x27;s what your player gets at Juventus Academy Las Vegas:<br>✅ Certified coaches<br>✅ The official Juventus FC methodology in every session<br>✅ Teams grouped by age and level<br>✅ League and tournaments<br><br>The tryout is free. Book it at the link 👇</div>
+      <div class="lbl">Título <span class="hint">· se puede editar</span></div>
+      <div class="tit ed" contenteditable="true" spellcheck="true" data-campo="titulo">Built to compete · Ages 6–17</div>
+      <div class="lbl">Botón</div><p class="btn">Sign Up</p>
+      <details class="trad"><summary>Traducción al español (solo de referencia, no se publica)</summary><p>¿Buscas un equipo competitivo para tu hijo de 6 a 17 años en Las Vegas? ⚽<br><br>Esto es lo que recibe tu jugador en Juventus Academy Las Vegas:<br>✅ Entrenadores certificados<br>✅ La metodología oficial de Juventus FC en cada sesión<br>✅ Equipos por edad y nivel<br>✅ Liga y torneos<br><br>El tryout es gratis. Resérvalo en el enlace 👇</p></details>
+      <div class="acciones">
+        <button type="button" class="aprobar" data-accion="aprobar">Aprobar</button>
+        <button type="button" class="sec" data-accion="nota">Dejar una nota</button>
+        <button type="button" class="sec deshacer" data-accion="restaurar" hidden>Volver al texto original</button>
+      </div>
+      <div class="nota" hidden><textarea rows="2" placeholder="Nota para este anuncio (opcional)"></textarea><button type="button" class="sec" data-accion="enviar-nota">Enviar nota</button></div>
+      <p class="aviso" data-aviso aria-live="polite"></p>
+    </div>
+  </div>
+</article><footer>Juventus Academy Las Vegas · Aprobación de la campaña de tryouts del competitivo · 16-10-2026 · Página interna, no indexada.</footer>
+</div>
+<script>
+const CFG={"accion": "https://docs.google.com/forms/d/e/1FAIpQLSeGUY8Cv9Ea08X9HkdznY9pzVoUc4Gj-GdymsVTFP86wbE5sw/formResponse", "entry": {"pieza": 333677581, "cuenta": 724853821, "autor": 299801437, "comentario": 1175231019, "copy_corregido": 1649408514, "copy_original": 1637675582, "enviado": 909195940, "tipo": 1605073129, "zona": 1831673234, "fila": 1327618412}, "cuenta": "jlv_competitivo"};
+const ORIG={"CONF": {}, "V4": {"texto": "This is how we train at Juventus Academy Las Vegas, with our competitive teams for boys and girls ages 6 to 17. ⚽\n\nEvery session follows the official Juventus methodology: technical, tactical, physical and mental. Our teams play league and tournaments, with certified coaches who push every player to the next level.\n\nReady for the next step? Book your tryout at the link 👇", "titulo": "Book your tryout · Ages 6–17", "nombre": "VIDEO-4 · \"This is how we train\" (voz de Jesús)"}, "S1": {"texto": "The official Juventus Academy in Las Vegas. ⚪⚫\n\nOur competitive teams for boys and girls ages 6 to 17 train with certified coaches and the official Juventus FC methodology, and play league and tournaments.\n\nBook your tryout at the link and find the team that fits your player 👇", "titulo": "Las Vegas tryouts · Ages 6–17", "nombre": "STATIC-1 · HERO \"Las Vegas · Ages 6 to 17\""}, "S3": {"texto": "Already playing and ready for more? ⚽\n\nOur competitive teams for boys and girls ages 6 to 17 train under the official Juventus FC methodology and compete in leagues and tournaments, with certified coaches who push every player to the next level.\n\nBook your tryout at the link 👇", "titulo": "Get to the next level · Ages 6–17", "nombre": "STATIC-3 · \"Next level\""}, "S4": {"texto": "Looking for a competitive team for your 6- to 17-year-old in Las Vegas? ⚽\n\nHere's what your player gets at Juventus Academy Las Vegas:\n✅ Certified coaches\n✅ The official Juventus FC methodology in every session\n✅ Teams grouped by age and level\n✅ League and tournaments\n\nThe tryout is free. Book it at the link 👇", "titulo": "Built to compete · Ages 6–17", "nombre": "STATIC-4 · \"Built to compete\""}};
+
+const LSK='jlv_competitivo_v1';
+const LS={get(){try{return JSON.parse(localStorage.getItem(LSK)||'{}')}catch(e){return {}}},set(v){try{localStorage.setItem(LSK,JSON.stringify(v))}catch(e){}}};
+const norm=t=>(t||'').replace(/\u00a0/g,' ').split('\n').map(l=>l.trim()).join('\n').replace(/\n{3,}/g,'\n\n').trim();
+const campos=ad=>[...ad.querySelectorAll('[data-campo]')].map(e=>e.dataset.campo);
+function leer(ad){const v={};campos(ad).forEach(c=>v[c]=norm(ad.querySelector('[data-campo="'+c+'"]').innerText));return v}
+function cambiado(ad){const o=ORIG[ad.dataset.id],v=leer(ad);return campos(ad).some(c=>v[c]!==norm(o[c]))}
+function pintar(ad){const b=ad.querySelector('.aprobar');if(!campos(ad).length)return;const c=cambiado(ad);b.textContent=c?'Aprobar con texto corregido':'Aprobar';b.classList.toggle('copy',c);
+  ad.querySelector('.deshacer').hidden=!c;ad.querySelectorAll('.ed').forEach(e=>e.classList.toggle('cambiado',norm(e.innerText)!==norm(ORIG[ad.dataset.id][e.dataset.campo])))}
+async function enviar(reg){const f=new URLSearchParams();for(const k in CFG.entry)f.append('entry.'+CFG.entry[k],reg[k]??'');
+  try{await fetch(CFG.accion,{method:'POST',mode:'no-cors',body:f});return true}catch(e){return false}}
+function marcar(ad,txt){ad.classList.add('aprobado');ad.querySelector('[data-estado]').textContent=txt}
+async function aprobar(ad){const id=ad.dataset.id,c=cambiado(ad),v=leer(ad),o=ORIG[id];
+  const reg={pieza:id,cuenta:CFG.cuenta,autor:'Alessandro',tipo:c?'aprobado_copy':'aprobado',comentario:'',copy_original:JSON.stringify({texto:o.texto||'',titulo:o.titulo||''}),
+    copy_corregido:c?JSON.stringify(v):'',enviado:new Date().toISOString(),zona:'',fila:''};
+  const av=ad.querySelector('[data-aviso]');av.textContent='Guardando…';
+  if(!await enviar(reg)){av.textContent='No se pudo guardar. Revise la conexión e intente de nuevo.';return}
+  const st=LS.get();st[id]={tipo:reg.tipo,v:c?v:null,hora:reg.enviado};LS.set(st);
+  marcar(ad,c?'Aprobado con texto corregido':'Aprobado');av.textContent='Guardado.';contar()}
+async function nota(ad){const ta=ad.querySelector('.nota textarea'),t=ta.value.trim();if(!t)return;const av=ad.querySelector('[data-aviso]');av.textContent='Enviando…';
+  const ok=await enviar({pieza:ad.dataset.id,cuenta:CFG.cuenta,autor:'Alessandro',tipo:'comentario',comentario:t,copy_original:'',copy_corregido:cambiado(ad)?JSON.stringify(leer(ad)):'',enviado:new Date().toISOString(),zona:'',fila:''});
+  av.textContent=ok?'Nota enviada.':'No se pudo enviar la nota.';if(ok){ta.value='';ad.querySelector('.nota').hidden=true}}
+function contar(){const n=document.querySelectorAll('.ad').length,ap=document.querySelectorAll('.ad.aprobado').length;
+  document.querySelector('.todo .cuenta').textContent=ap+' de '+n+' aprobados (presupuesto + 4 anuncios)';document.querySelector('.todo button').hidden=ap===n}
+document.querySelectorAll('.ad').forEach(ad=>{ad.querySelectorAll('.ed').forEach(e=>e.addEventListener('input',()=>pintar(ad)));
+  ad.addEventListener('click',ev=>{const a=ev.target.closest('[data-accion]');if(!a)return;const k=a.dataset.accion;
+    if(k==='aprobar')aprobar(ad);
+    else if(k==='nota'){const n=ad.querySelector('.nota');n.hidden=!n.hidden;if(!n.hidden)n.querySelector('textarea').focus()}
+    else if(k==='enviar-nota')nota(ad);
+    else if(k==='restaurar'){const o=ORIG[ad.dataset.id];campos(ad).forEach(c=>ad.querySelector('[data-campo="'+c+'"]').innerText=o[c]);pintar(ad)}})});
+document.querySelector('.todo button').addEventListener('click',async()=>{for(const ad of document.querySelectorAll('.ad:not(.aprobado)'))await aprobar(ad)});
+function aplicar(st){for(const id in st){const ad=document.querySelector('.ad[data-id="'+id+'"]');if(!ad)continue;const x=st[id];
+  if(x.v){campos(ad).forEach(c=>{if(x.v[c]!=null)ad.querySelector('[data-campo="'+c+'"]').innerText=x.v[c]});pintar(ad)}
+  if(x.tipo&&x.tipo.indexOf('aprobado')===0)marcar(ad,x.tipo==='aprobado_copy'?'Aprobado con texto corregido':'Aprobado')}contar()}
+aplicar(LS.get());
+fetch('estado.json?t='+Date.now()).then(r=>r.ok?r.json():{}).then(j=>{if(j&&typeof j==='object')aplicar(j)}).catch(()=>{});
+</script></body></html>
